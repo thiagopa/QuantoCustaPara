@@ -1,9 +1,8 @@
 MANIFEST.in
+README
 README.txt
 setup.cfg
 setup.py
-migration/__init__.py
-migration/versions/__init__.py
 quantocustapara/__init__.py
 quantocustapara.egg-info/PKG-INFO
 quantocustapara.egg-info/SOURCES.txt
@@ -29,6 +28,7 @@ quantocustapara/lib/base.py
 quantocustapara/lib/helpers.py
 quantocustapara/model/__init__.py
 quantocustapara/model/auth.py
+quantocustapara/model/session.py
 quantocustapara/public/favicon.ico
 quantocustapara/public/css/admin.css
 quantocustapara/public/css/style.css
@@ -55,7 +55,6 @@ quantocustapara/public/images/star.png
 quantocustapara/public/images/strype2.png
 quantocustapara/public/images/under_the_hood_blue.png
 quantocustapara/public/images/warning.png
-quantocustapara/public/javascript/empty
 quantocustapara/templates/__init__.py
 quantocustapara/templates/about.html
 quantocustapara/templates/authentication.html
